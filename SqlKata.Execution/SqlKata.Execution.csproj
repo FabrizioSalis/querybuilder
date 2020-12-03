@@ -6,17 +6,20 @@
     <Description>Adds the execution capabilities for SqlKata</Description>
     <Authors>Ahmad Moussawi</Authors>
     <Copyright>Copyright (c) 2017 Ahmad Moussawi</Copyright>
-    <TargetFrameworks>netstandard1.0;net45</TargetFrameworks>
     <RootNamespace>SqlKata</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\QueryBuilder\QueryBuilder.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="dapper" Version="1.50.5" />
-    <PackageReference Include="Humanizer.Core" Version="2.6.2" />
+    <PackageReference Include="dapper" Version="2.0.78" />
+    <PackageReference Include="Humanizer.Core" Version="2.8.26" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="NuGet.Build.Tasks.Pack" Version="5.8.0" />
+    <PackageReference Update="SourceLink.Create.CommandLine" Version="2.8.3" />
   </ItemGroup>
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.3;net451</TargetFrameworks>
+    <TargetFrameworks>net5</TargetFrameworks>
   </PropertyGroup>
 </Project>
