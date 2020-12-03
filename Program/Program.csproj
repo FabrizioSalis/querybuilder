@@ -12,11 +12,6 @@
     <PackageReference Include="System.Data.SQLite" Version="1.0.113.6" />
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Update="NuGet.Build.Tasks.Pack" Version="5.8.0" />
-    <PackageReference Update="SourceLink.Create.CommandLine" Version="2.8.3" />
-  </ItemGroup>
-
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <IsPackable>false</IsPackable>

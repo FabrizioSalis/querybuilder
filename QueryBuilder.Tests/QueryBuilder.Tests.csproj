@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <Import Condition="'$(OS)' != 'Windows_NT'" Project="..\Directory.build.props" />
   <PropertyGroup>
-    <TargetFrameworks>net5</TargetFrameworks>
-    <OutputType>Library</OutputType>
+	  <TargetFramework>net5.0</TargetFramework>
+	  <OutputType>Library</OutputType>
     <IsPackable>false</IsPackable>
     <RootNamespace>SqlKata.Tests</RootNamespace>
   </PropertyGroup>
@@ -17,9 +17,5 @@
   <ItemGroup>
     <ProjectReference Include="..\QueryBuilder\QueryBuilder.csproj" />
     <ProjectReference Include="..\SqlKata.Execution\SqlKata.Execution.csproj" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Update="NuGet.Build.Tasks.Pack" Version="5.8.0" />
-    <PackageReference Update="SourceLink.Create.CommandLine" Version="2.8.3" />
   </ItemGroup>
 </Project>

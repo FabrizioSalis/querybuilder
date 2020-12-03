@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <PackageId>SqlKata</PackageId>
-    <PackageTags>sql;query-builder;dynamic-query</PackageTags>
-    <Title>SqlKata The C# Sql Query Builder</Title>
-    <Description>A powerful Dynamic Sql Query Builder supporting Sql Server, MySql, PostgreSql, Oracle and Firebird</Description>
-    <Authors>Ahmad Moussawi</Authors>
-    <Copyright>Copyright (c) 2017 Ahmad Moussawi</Copyright>
-    <TargetFrameworks>net5</TargetFrameworks>
-    <RootNamespace>SqlKata</RootNamespace>
-    <AssemblyName>SqlKata</AssemblyName>
-    <AssemblyVersion>2.3.0.0</AssemblyVersion>
-    <FileVersion>2.3.0.0</FileVersion>
-    <Version>2.3.0</Version>
-  </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="System.Collections.Concurrent" Version="4.3.0" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Update="NuGet.Build.Tasks.Pack" Version="5.8.0" />
-    <PackageReference Update="SourceLink.Create.CommandLine" Version="2.8.3" />
-  </ItemGroup>
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<PackageId>SqlKata.Porting.NET5</PackageId>
+		<PackageTags>sql;query-builder;dynamic-query</PackageTags>
+		<Title>SqlKata The C# Sql Query Builder</Title>
+		<Description>A powerful Dynamic Sql Query Builder supporting Sql Server, MySql, PostgreSql, Oracle and Firebird</Description>
+		<Authors>Ahmad Moussawi</Authors>
+		<Copyright>Copyright (c) 2017 Ahmad Moussawi</Copyright>
+		<RootNamespace>SqlKata</RootNamespace>
+		<AssemblyName>SqlKata</AssemblyName>
+		<AssemblyVersion>2.3.0.0</AssemblyVersion>
+		<FileVersion>2.3.0.0</FileVersion>
+		<Version>2.3.0</Version>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="System.Collections.Concurrent" Version="4.3.0" />
+	</ItemGroup>
 </Project>
